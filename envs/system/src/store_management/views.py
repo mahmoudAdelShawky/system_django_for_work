@@ -8,9 +8,3 @@ def home(request):
 def store_management(request):
     return render (request , '../templates/tables.html')
 
-
-def login(request):
-    return render(request, 'login.html')
-
-def register(request):
-    return render(request, 'register.html')
